@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite name="Cucumber" time="48.73" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="SaerchParameterizing" name="TC01" time="26.017">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at mini_bootcamp_cucumber.stepdefinitions.Day02SearchParameterizing_StepDef.sonuclarda_vazo_oldugu_dogrulanir(Day02SearchParameterizing_StepDef.java:39)
+	at ✽.sonuclarda vazo oldugu dogrulanir(file:///C:/Users/Nutzer/Desktop/Mini%20Bootcamp-Nazim/Madame_Coco/src/test/resources/features/day02SearchParameterizing.feature:7)
+]]>
+</failure>
+<system-out><![CDATA[
+Given madame coco sitesine gidilir..........................................passed
+And arama kutusuna vazo yazilir.............................................passed
+Then sonuclarda vazo oldugu dogrulanir......................................failed
+]]></system-out>
+</testcase>
+<testcase classname="SaerchParameterizing" name="Parametreli Arama Kutusu Testi" time="22.491">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at mini_bootcamp_cucumber.stepdefinitions.Day02SearchParameterizing_StepDef.sonuclarada_oldugu_dogrulanir(Day02SearchParameterizing_StepDef.java:78)
+	at ✽.sonuclarada "<urun>" oldugu dogrulanir(file:///C:/Users/Nutzer/Desktop/Mini%20Bootcamp-Nazim/Madame_Coco/src/test/resources/features/day02SearchParameterizing.feature:14)
+]]>
+</failure>
+<system-out><![CDATA[
+Given "madame coco" sitesine gidilir........................................passed
+And ingilizce menu secilir..................................................passed
+And Arama kutusuna "<urun>" yazilir.........................................passed
+Then sonuclarada "<urun>" oldugu dogrulanir.................................failed
+]]></system-out>
+</testcase>
+</testsuite>
