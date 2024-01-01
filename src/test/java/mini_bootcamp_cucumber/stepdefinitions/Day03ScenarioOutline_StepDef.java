@@ -9,6 +9,8 @@ import mini_bootcamp_cucumber.utilities.ConfigurationReader;
 import mini_bootcamp_cucumber.utilities.Driver;
 import mini_bootcamp_cucumber.utilities.ReusableMethods;
 
+import java.sql.DriverManager;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -121,6 +123,7 @@ public class Day03ScenarioOutline_StepDef {
     public void uyelikIcinGirisYapButonuTiklanir() {
         page.girisYap.click();
     }
+
 
 
 }
