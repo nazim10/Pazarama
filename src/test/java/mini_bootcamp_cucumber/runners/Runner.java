@@ -17,7 +17,7 @@ import org.openqa.selenium.support.FindBy;
         monochrome = true,//raporlarin consoleda okunakli sekilde cikmasi icin
         features = "src/test/resources/features",//features folder path
         glue = {"mini_bootcamp_cucumber/stepdefinitions","hooks"},   //stepdefinitions path
-        tags = "@madam",
+        tags = "@paralel",
         dryRun = false
 )
 public class Runner {
